@@ -609,6 +609,9 @@ GameObject:
   - component: {fileID: 1203204743}
   - component: {fileID: 1203204742}
   - component: {fileID: 1203204741}
+  - component: {fileID: 1203204747}
+  - component: {fileID: 1203204746}
+  - component: {fileID: 1203204745}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -703,6 +706,46 @@ Transform:
   - {fileID: 789888638}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203204745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203204740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1846dedbf79ce46cba9dd74e2bef6750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1203204746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203204740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6f08c628171474492ac5ea8cb606e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyInputController:
+    obj: {fileID: 1203204740}
+  characterMove:
+    obj: {fileID: 1203204740}
+--- !u!114 &1203204747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203204740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff2b8f98bcd54eddaf315b94fd41e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
