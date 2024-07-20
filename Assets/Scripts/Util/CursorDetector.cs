@@ -21,7 +21,7 @@ namespace Util
             if(Physics.Raycast(ray,out hit, Mathf.Infinity))
             {
                 onFire.Invoke(hit.point);
-                Debug.Log($"{hit.point}");
+                //Debug.Log($"{hit.point}");
             }
         }
 
