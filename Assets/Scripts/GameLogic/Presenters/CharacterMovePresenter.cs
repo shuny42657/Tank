@@ -10,10 +10,15 @@ namespace Util
         [SerializeField] SerializeInterface<IKeyInputController> keyInputController;
         [SerializeField] SerializeInterface<IMovable> characterMove;
         // Start is called before the first frame update
-        void Start()
+        /*void Start()
         {
             Debug.Log(keyInputController.Value != null);
             Debug.Log(characterMove.Value != null);
+            
+        }*/
+
+        public void Set()
+        {
             keyInputController.Value.OnHAxis.AddListener((val) => characterMove.Value.MoveHorizontal(val));
             keyInputController.Value.OnVAxis.AddListener((val) => characterMove.Value.MoveVertical(val));
         }

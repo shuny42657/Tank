@@ -9,6 +9,10 @@ namespace Util
     {
         public bool isActive;
         [SerializeField] Camera referenceCamera;
+        public void SetReferenceCamera(Camera camera)
+        {
+            referenceCamera = camera;
+        }
 
         public UnityEvent<Vector3> OnFire { get { return onFire; } }
 

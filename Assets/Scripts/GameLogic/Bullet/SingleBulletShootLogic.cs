@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using GameLogic.Factory;
-using static UnityEditor.PlayerSettings;
 
 namespace GameLogic.Bullet
 {
